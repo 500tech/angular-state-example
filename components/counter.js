@@ -9,7 +9,7 @@ export default function counter() {
 }
 
 class CounterController {
-  constructor(AppState, $scope) {
+  constructor(AppState) {
     Object.assign(this, { AppState });
   }
 }
