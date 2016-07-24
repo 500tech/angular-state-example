@@ -1,5 +1,3 @@
-import * as CounterActions from '../actions/counter';
-
 export default function counter() {
   return {
     restrict: 'E',
@@ -11,9 +9,7 @@ export default function counter() {
 }
 
 class CounterController {
-
   constructor(AppState, $scope) {
     Object.assign(this, { AppState });
   }
-
 }

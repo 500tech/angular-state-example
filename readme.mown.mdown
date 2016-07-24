@@ -1,0 +1,10 @@
+# angular state example instead of Redux
+
+## Prepare
+$ npm i
+
+## Start
+$ npm start
+
+## Run tests
+$ npm test
